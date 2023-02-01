@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Horizontal_Parallax</title>
+
+    <!--link css-->
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--script js-->
+    <script src="libs/swiper/swiper-bundle.min.js" defer></script>
+    <script src="libs/particles/particles.js" defer></script>
+    <script src="js/main.js" defer></script>
+
 </head>
 <body>
-    
+    <div class="swiper slider">
+        <div class="swiper-wrapper slider__wrapper">
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" style="backgroung-image: url(img/screen-1/layer-back.jpg);"></div>
+                <div class="slider__layer" style="backgroung-image: url(img/screen-1/layer-middle.png);"></div>
+                <div class="slider__layer" style="backgroung-image: url(img/screen-1/layer-front.png);"></div>
+            </div>
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" style="backgroung-image: url(img/screen-1/layer-back.jpg);"></div>
+                <div class="slider__layer" style="backgroung-image: url(img/screen-1/layer-middle.png);"></div>
+                <div class="slider__layer" style="backgroung-image: url(img/screen-1/layer-front.png);"></div>
+            </div>
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" style="backgroung-image: url(img/screen-1/layer-back.jpg);"></div>
+                <div class="slider__layer" style="backgroung-image: url(img/screen-1/layer-middle.png);"></div>
+                <div class="slider__layer" style="backgroung-image: url(img/screen-1/layer-front.png);"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
