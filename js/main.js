@@ -1,3 +1,5 @@
+//Swiper
+
 new Swiper('.slider', {
     // direction: 'vertical',
     // freeMode: true,
@@ -9,3 +11,10 @@ new Swiper('.slider', {
     spaceBetween: 18,
     parallax: true,
 })
+
+ // Preloader 
+ $(window).load(function() {
+    $(".loader_inner").fadeOut();
+    $(".loader").delay(400).fadeOut("slow");
+
+});
